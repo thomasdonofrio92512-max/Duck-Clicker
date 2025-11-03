@@ -1,0 +1,90 @@
+body {
+    background-image: linear-gradient(to right, hsl(240, 100%, 50%), hsl(195, 53%, 79%));
+}
+#header {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: hsl(63, 100%, 50%);
+}
+main {
+    position: absolute;
+    left: 460px;
+}
+#count {
+    position: relative;
+    left: 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: hsl(60, 100%, 50%);
+}
+#button2 {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+#button2:active {
+    transform: scale(0.9);
+    transition: 0.2;
+}
+#div1 {
+    display: block;
+    color: red;
+    border: 2px solid brown;
+    text-align: center;
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: scale(2);
+    background-color: hsla(0, 59%, 41%, 0.588);
+    width: 128px;
+    height: 55px;
+}
+#button1 {
+    display: flex;
+    position: absolute;
+    float: right;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    right: -300px;
+    top: 200px;
+}
+#div1:hover {
+    background-color: hsla(0, 80%, 64%, 0.588);
+    transition: 0.5s;
+}
+#div1:active {
+    background-color: hsla(0, 61%, 14%, 0.588);
+}
+#clicker {
+    display: flex;
+    position: absolute;
+    float: right;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    right: -300px;
+    top: 310px;
+}
+#div2 {
+    display: block;
+    color: red;
+    border: 2px solid brown;
+    text-align: center;
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: scale(2);
+    background-color: hsla(0, 59%, 41%, 0.588);
+    width: 128px;
+    height: 55px;
+}
+#div2:hover {
+    background-color: hsla(0, 80%, 64%, 0.588);
+    transition: 0.5s;
+}
+#div2:active {
+    background-color: hsla(0, 61%, 14%, 0.588);
+}
